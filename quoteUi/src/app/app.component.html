@@ -1,0 +1,26 @@
+<div class="container">
+  <mat-card [@changeDivSize]=currentState>
+    <img
+      mat-card-image
+      class="img"
+      [src]=image>
+    <div class="centered">
+      <h2 [ngStyle]="{'font-family': randomFont}">
+        {{ quote }}
+      </h2>
+      <h5>{{ author }}</h5>
+    </div>
+  </mat-card>
+  <div class="inspire-button">
+    <button
+      mat-raised-button
+      (click)="getRandomImageAndQuote('english_text')">
+      Inspire me
+    </button>
+    <button
+      mat-raised-button
+      (click)="getRandomImageAndQuote('klingon_text')">
+      Inspire me in Klingon
+    </button>
+  </div>
+</div>

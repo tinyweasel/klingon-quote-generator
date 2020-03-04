@@ -1,0 +1,26 @@
+.container {
+  overflow: hidden;
+  .mat-card {
+    margin: 50px auto;
+    width: 500px;
+    .centered {
+      position: absolute;
+      top: 45%;
+      left: 52%;
+      transform: translate(-45%, -52%);
+      h2 {
+        color: white;
+        width: 450px;
+        text-shadow: 2px 2px black;
+      }
+    }
+  }
+  .inspire-button {
+    display: flex;
+    justify-content: center;
+    .mat-raised-button {
+      margin-left: 2%;
+    }
+  }
+}
+
