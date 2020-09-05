@@ -1,5 +1,4 @@
 # python
-manage.py
 *.pyo
 *.pyc
 .installed.cfg
