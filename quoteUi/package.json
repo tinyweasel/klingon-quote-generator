@@ -21,7 +21,9 @@
     "@angular/platform-browser": "~10.1.0",
     "@angular/platform-browser-dynamic": "~10.1.0",
     "@angular/router": "~10.1.0",
+    "handlebars": "^4.7.6",
     "rxjs": "^6.5.5",
+    "tree-kill": "^1.2.2",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3"
   },
@@ -33,7 +35,7 @@
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
-    "codelyzer": "^5.1.2",
+    "codelyzer": "^5.2.2",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~5.0.0",
     "karma": "~5.0.0",
