@@ -23,4 +23,4 @@ npm start
 * Scrape better images from more places
 * Scrape more Klingon quotes
 * Don't display same quote or image twice in a row
-* Replace SQLLite with Postgres or another better databse
+* Replace SQLLite with Postgres or another better database
